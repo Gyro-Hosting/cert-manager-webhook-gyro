@@ -1,0 +1,33 @@
+# API group of the webhook; use it as `groupName` in your Issuer. No need to change.
+groupName: acme.gyrohosting.com
+
+certManager:
+  namespace: cert-manager
+  serviceAccountName: cert-manager
+
+# Namespaces where the webhook may read the ACME key Secret (Issuer namespaces).
+# Empty = cert-manager's namespace (ClusterIssuer) + the release namespace.
+secretNamespaces: []
+
+image:
+  repository: ghcr.io/gyro-hosting/cert-manager-webhook-gyro
+  tag: "0.1.0"
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 443
+
+resources:
+  requests:
+    cpu: 10m
+    memory: 32Mi
+  limits:
+    memory: 128Mi
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
