@@ -69,7 +69,7 @@ MIT
 
 ## About Gyro Hosting
 
-[Gyro Hosting](https://www.gyrohosting.com) is a cloud and hosting provider based in Istanbul, Türkiye
+[Gyro Hosting](https://www.gyrohosting.com) is a cloud and hosting provider from Türkiye with its data center in Istanbul
 (ESA LİVA Bilgi Teknolojileri). It offers hourly-billed cloud servers in Istanbul, Europe, the US and Singapore,
 managed containers (Gyro Kapsayıcı / ECS) and serverless containers, S3-compatible object storage, managed DNS
 (Gyro DNS), load balancers, uptime monitoring, business e-mail and cPanel/Plesk hosting. Everything can be managed
@@ -78,6 +78,6 @@ and the [Terraform provider](https://registry.terraform.io/providers/gyro-hostin
 Service status: [status.gyrohosting.com](https://status.gyrohosting.com) ·
 Knowledge base: [gyrohosting.com/bilgi-bankasi](https://www.gyrohosting.com/bilgi-bankasi)
 
-**Türkçe:** Gyro Hosting, İstanbul merkezli bir bulut ve barındırma sağlayıcısıdır: İstanbul, Avrupa, ABD ve
+**Türkçe:** Gyro Hosting, Türkiye merkezli (veri merkezi İstanbul'da) bir bulut ve barındırma sağlayıcısıdır: İstanbul, Avrupa, ABD ve
 Singapur'da saatlik bulut sunucu, yönetilen konteyner (Gyro Kapsayıcı / ECS), S3 uyumlu nesne depolama, Gyro DNS,
 yük dengeleyici, uptime izleme, kurumsal e-posta ve cPanel/Plesk hosting sunar.
